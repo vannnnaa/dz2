@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+  <link rel="stylesheet" type="text/css" href="index0css.css">
+</head>
+<body>
+    <div class="container">
+   <header class="card">
+        <div class="card-body">
+            <h5 class="card-title">Смешарики</h5>
+        </div>
+    </header>
+ <div class="card ">
+
+<navigation class="card-header">
+  <ul class="nav nav-pills">
+    <li class="nav-item">
+      <a class="nav-link" aria-current="page" href="C:\Users\Marat\Desktop\ospanel\domains\dzsite\index0.html">О сайте</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link " href="C:\Users\Marat\Desktop\ospanel\domains\dzsite\index1.html">Герои</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="C:\Users\Marat\Desktop\ospanel\domains\dzsite\index2.html"><img src="camera.jpg" width="50px"></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="https://www.smeshariki.ru/" target="_blank">Официальный сайт</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="C:\Users\Marat\Desktop\ospanel\domains\dzsite\index3.html">Пройди тест</a>
+    </li>
+    <li class="nav-item">
+    <a class="nav-link" href="C:\Users\Marat\Desktop\OSPanel\domains\dzsite\0650_api.html" target="_blank">Магазин</a>
+  </li>
+  </ul>
+</navigation>
+<div class="main-text">
+<h3 align="center">Какой ты смешарик?</h3>
+<p>Введи свои данные и мы отправим тебе игрушку смешарика, на которого ты больше всего похож</p>
+<!--<form action="../../cgi-bin/form_action.py" method='get' target='_self'>-->
+<!--<form action="http://185.182.111.214:7628/cgi-bin/form_action.py" method='get' target='_self'>-->
+<form action="https://www.bing.com/search?" id="UserEnter" name="UserEnter" target="_blank">
+    <p>Для поисковика:<input type="hidden"  name="q" value="search"></p>
+    <p>Твое имя: <input type="Text" name="first_name" size=20  value="Петя"></p>
+    <p>Твой возраст: <input type="Number" name="age" size=20 value="18"></p>
+    <p>Твой город:
+        <select name="citys">
+            <OPTION value="Москва">Москва</OPTION>
+            <OPTION value="Уфа">Уфа</OPTION>
+            <OPTION value="Псков">Псков</OPTION>
+            <OPTION value="Нижний Новгород">Нижний Новгород</OPTION>
+            <OPTION value="Самара">Самара</OPTION>
+            <OPTION value="Санкт-Петербург">Санкт-Петербург</OPTION>
+            <OPTION value="Кострома">Кострома</OPTION>
+        </select>
+    </p>
+
+    <p>Как бы ты описал свой характер:
+        <input type="Radio" name="character" value="active"> активный
+        <input type="Radio" name="character" value="sensetive" checked >чувствительный
+        <input type="Radio" name="character" value="loveable"> влюбчивый
+        <input type="Radio" name="character" value="poet"> вдохновленный
+        <input type="Radio" name="character" value="wise"> мудрый
+        <input type="Radio" name="character" value="smart"> любозательный
+        <input type="Radio" name="character" value="hard-working"> трудолюбивый
+    </p>
+
+    <p>Какие из цитат тебе нравится больше всего:</p>
+
+        <p><input type="Checkbox" name="quotes" checked>В здоровом теле — здоровый дух</p>
+        <p><input type="Checkbox"  name="quotes" >Опыт — лучший учитель</p>
+        <p><input type="Checkbox" name="quotes" >Работает — не трогай</p>
+        <p><input type="Checkbox"  name="quotes" >Жизнь коротка, искусство — вечно</p>
+        <p><input type="Checkbox" name="quotes" checked>Я просто выгляжу как лось, а в душе я бабочка.</p>
+        <p><input type="Checkbox" name="quotes" checked>Вот так всегда: для кого-то балласт, а для кого-то сокровище.</p>
+        <p><input type="Checkbox" name="quotes" >А всё-таки, наверно, хорошо знать, что там, где горит свет, кто-то может сидеть и думать о тебе.</p>
+
+
+    <p> Опиши себя в повседневной жизни:
+        <br>
+        <TEXTAREA name="textarea" >Для заметок</TEXTAREA>
+    </p>
+
+    <p>Дата: <input type="date" name="user_date"  value='2024-10-02'></p>
+    <p>Пароль: <input type="Password" name="password" size=9  value="123"></p>
+    <!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+    <!--<p>Название файла: <input type="Техт" name="000_file_name" value="Н_ОW_Г_326510_1_Ivanov.txt" size='30'></p>
+
+    <p> Тип записи в файл:<select name="010_mode">
+        <OPTION value="a">a - дозаписать в файл</OPTION>
+        <OPTION value="w">w - очисить файл и записать в файл</OPTION>
+    </select></p>-->
+
+    <input type="hidden" name="function"  value="page">
+    <input type="hidden" name="page_id"  value="3">
+
+    <p>
+        <input type="Reset"  name="Reset"  value="Обновить">
+        <input type="Submit" name="submit"  value="Отправить">
+    </p>
+
+</form>
+</div>
+</div>
+</div>
+</body>
+</html>

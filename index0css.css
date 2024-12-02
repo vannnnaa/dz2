@@ -1,0 +1,60 @@
+body {
+	background-image: url("fon1.jpeg");
+	background-size: 100%;
+
+
+}
+.card-body{
+	background-color: Navy;
+	text-align: center;
+	color: white;
+	height: 70px;
+}
+.main-text{
+	background-color: DarkGreen;
+	color: white;
+	text-align: center;
+
+}
+.form1{
+	background-color: Navy;
+	color: white;
+	text-align: left;
+}
+a{
+	color: white;
+}
+.charachters p{
+	font-size: 10px;
+	color:  black;
+}
+
+p{
+    text-align: center;
+    margin: 0 auto;
+}
+#name_of_characters{
+	color: yellow;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 20px;
+
+}
+#index1_header{
+	color: yellow;
+	font-family: Comic Sans MS, Comic Sans, cursive;
+	font-size: 30px;
+}
+#sidebar{
+	color: yellow;
+	font-size: 20px;
+}
+#serii{
+	background-image: url("fon_table_serii.jpeg");
+	background-size: 100%;
+}
+#tr0{
+	height: 100px;
+}
+#tr1{
+	height: 50px;
+}
