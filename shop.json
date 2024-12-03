@@ -3,7 +3,7 @@
     "id": "1",
     "title": "Товар 1",
     "vendor_code": "111",
-    "description": "Описание 1",
+    "description": "Крош",
     "price": 100,
     "img": "1.jpg"
   },
@@ -11,7 +11,7 @@
     "id": "2",
     "title": "Товар 2",
     "vendor_code": "222",
-    "description": "Описание 2",
+    "description": "Ежик",
     "price": 200,
     "img": "2.jpg"
   },
@@ -19,7 +19,7 @@
     "id": "3",
     "title": "Товар 3",
     "vendor_code": "333",
-    "description": "Описание 3",
+    "description": "Бараш",
     "price": 300,
     "img": "3.jpg"
   },
@@ -27,7 +27,7 @@
     "id": "4",
     "title": "Товар 4",
     "vendor_code": "444e",
-    "description": "Описание 4",
+    "description": "Нюша",
     "price": 400,
     "img": "4.png"
   }
@@ -36,7 +36,7 @@
     "id": "5",
     "title": "Товар 5",
     "vendor_code": "4445e",
-    "description": "Описание 6",
+    "description": "Копатыч",
     "price": 400,
     "img": "5.jpg"
   },
@@ -44,7 +44,7 @@
     "id": "6",
     "title": "Товар 6",
     "vendor_code": "4446e",
-    "description": "Описание 6",
+    "description": "Совунья",
     "price": 400,
     "img": "6.jpg"
   },
@@ -52,7 +52,7 @@
     "id": "7",
     "title": "Товар 7",
     "vendor_code": "4447e",
-    "description": "Описание 7",
+    "description": "Кар-карыч",
     "price": 700,
     "img": "7.jpg"
   },
@@ -60,7 +60,7 @@
     "id": "8",
     "title": "Товар 8",
     "vendor_code": "4448e",
-    "description": "Описание 8",
+    "description": "Лосяш",
     "price": 800,
     "img": "8.jpg"
   },
@@ -68,7 +68,7 @@
     "id": "9",
     "title": "Товар 9",
     "vendor_code": "444e",
-    "description": "Описание 9",
+    "description": "Пин",
     "price": 400,
     "img": "9.jpg"
   }
@@ -77,7 +77,7 @@
     "id": "10",
     "title": "Товар 10",
     "vendor_code": "44410e",
-    "description": "Описание 10",
+    "description": "Биби",
     "price": 900,
     "img": "10.jpg"
   },
@@ -85,7 +85,7 @@
     "id": "11",
     "title": "Товар 11",
     "vendor_code": "44411e",
-    "description": "Описание 1",
+    "description": "Панди",
     "price": 1100,
     "img": "11.jpg"
   }
