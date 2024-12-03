@@ -10,6 +10,9 @@ body {
 	color: white;
 	height: 70px;
 }
+.card-body1{
+	color: black;
+}
 .main-text{
 	background-color: DarkGreen;
 	color: white;
